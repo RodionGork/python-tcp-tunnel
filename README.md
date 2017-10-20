@@ -1,6 +1,7 @@
 # Python tcp tunnel over ssh
 
-This script is useful when ssh tunneling is disabled on the remote server.
+This script is useful when ssh tunneling is disabled on the remote server.  
+E.g. for use with python web-proxy server.
 
 1. Copy the `tunserver.py` to remote server (e.g. via sftp)
 2. Run `python tunnel.py remote-server-address 'python /path-to/tunserver.py target-host port'
